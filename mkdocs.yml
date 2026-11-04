@@ -1,10 +1,10 @@
-site_name: GitHub Actions 缁冧範椤圭洰鏂囨。
+site_name: GitHub Actions 练习项目文档
 site_url: https://KP152.github.io/github-actions-practice/
 theme:
   name: material
   language: zh
 nav:
-  - 棣栭〉: index.md
-  - 鍏充簬: about.md
-  - 浣跨敤鎸囧崡: guide.md
-  - API 璇存槑: api.md
+  - 首页: index.md
+  - 关于: about.md
+  - 使用指南: guide.md
+  - API 说明: api.md
