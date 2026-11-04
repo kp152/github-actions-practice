@@ -39,6 +39,9 @@ jobs:
       - name: 构建文档站点
         run: mkdocs build
 
+      - name: 添加 .nojekyll
+        run: touch site/.nojekyll
+
       - name: 部署到 GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
